@@ -61,19 +61,16 @@ if(isset($_POST['proses'])){
                     <option value="pangkat" name="pangkat">Perpangkatan</option>
                 </select>
             </td>
+            </tr>
             <tr>
                 <td></td>
                 <td><input type="submit" value="proses" name="proses"></td>
             </tr>
-            </tr>
+            
             <tr>
-                <td></td>
-                <td>
-            <?php
-                echo $hasil;
-            ?>
-            </td>
+                <td><input type="text" value="<?php echo $hasil ?>" name=""></td>
             </tr>
+            
         </table>
         </center>
     </form>
